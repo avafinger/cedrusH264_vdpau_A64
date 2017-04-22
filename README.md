@@ -9,7 +9,7 @@ Tested and running on the following devices (1080P hdmi):
   - NanoPi A64
   - Pine64
 
-To be tested on boards below soon when i get them:
+To be tested on boards below as soon as i get them:
 
   - SOPINE (gently sent by tllim) - stuck somewhere around the globe!?
   - OPI Win
@@ -17,7 +17,7 @@ To be tested on boards below soon when i get them:
 Instructions
 ============
 
-  - If you have attempted to install Cedrus/vdpau previoulsy, remove it completely!
+  - If you have attempted to install Cedrus/vdpau previously, remove it completely!
   - Clone this repo: 
 
 		git clone https://github.com/avafinger/cedrusH264_vdpau_A64
@@ -28,8 +28,25 @@ Instructions
 
   - Reboot or shutdown depending which board you have
 
-	sudo rebbot
-	or
-	sudo shutdow -h
+		sudo reboot
+		or
+		sudo shutdown -h
 	
+  - After rebooting or restarting your board you can test MP4 H264 (big buck bunny for example)
+    with mplayer without sound to make sure cedrus is working!
 
+		mplayer-mute mplayer-mute big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4 
+
+  - To play with sound (output to hdmi)
+
+		mplayer-hdmi mplayer-mute big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4 
+
+  - If you are brave, you can setup audiocodec (JACK), when ready:
+
+		mplayer-jack mplayer-mute big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4 
+
+Source
+======
+
+  - libcedrus
+  - libvdpau-sunxi
