@@ -46,7 +46,7 @@ Instructions
 
   - If you are brave, you can setup audiocodec (JACK), when ready:
 
-		mplayer-jack mplayer-mute big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4 
+		mplayer-jack big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4 
 
 Source
 ======
