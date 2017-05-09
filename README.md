@@ -24,6 +24,7 @@ Instructions
 
   - Install it:
 
+		cd cedrusH264_vdpau_A64
 		sudo dpkg -i cedrusH264_vdpau_1.0-1.deb 
 
   - Reboot or shutdown depending which board you have
