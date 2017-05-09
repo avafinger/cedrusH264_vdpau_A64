@@ -8,11 +8,8 @@ Tested and running on the following devices (1080P hdmi):
   - BananaPi M64
   - NanoPi A64
   - Pine64
+  - OPI Win A64
 
-To be tested on boards below as soon as i get them:
-
-  - SOPINE (gently sent by tllim) - stuck somewhere around the globe!?
-  - OPI Win
 
 ## HW decoding (1920x1080 H264) with cedrus
 [![A64 Cedrus in action](https://github.com/avafinger/nanopi-a64-firmware/raw/master/img/1920x1080.jpg)](https://youtu.be/mXMOh9ShDDc)
